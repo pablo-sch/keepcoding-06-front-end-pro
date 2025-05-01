@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-gold: rgb(202, 172, 0);
+    --font-serif: 'Poltawski Nowy', serif;
+    --font-sans: 'Public Sans', sans-serif;
+    --font-title: 'Poltawski Nowy', serif;
+    --font-common: 'Poltawski Nowy', serif;
+}
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+.page-title {
+    @apply text-4xl text-center uppercase underline font-title text-gold tracking-[0.25rem]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "keepcoding-front-end-pro-submission-6",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "start:open": "parcel --open",
+    "build": "npm run clear && parcel build --no-source-maps",
+    "clear": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSch26/keepcoding-front-end-pro-submission-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloSch26/keepcoding-front-end-pro-submission-6/issues"
+  },
+  "homepage": "https://github.com/PabloSch26/keepcoding-front-end-pro-submission-6#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "parcel": "^2.14.4",
+    "rimraf": "^6.0.1",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.5",
+    "luxon": "^3.6.1",
+    "tailwindcss": "^4.1.5"
+  }
+}
