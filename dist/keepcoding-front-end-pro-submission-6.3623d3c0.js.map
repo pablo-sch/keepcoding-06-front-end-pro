@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAAS;IACR,QAAQ,GAAG,CAAC;AACb;AAEA","sources":["src/lib/home.ts"],"sourcesContent":["function bootsstrap(){\r\n console.log(\"boostrap Home!\")\r\n}\r\n\r\nbootsstrap()"],"names":[],"version":3,"file":"keepcoding-front-end-pro-submission-6.3623d3c0.js.map","sourceRoot":"/__parcel_source_root/"}
