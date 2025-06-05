@@ -1,7 +1,7 @@
 {
-    "include": ["examples/src/**/*"],
-    "compilerOptions": {
-      "target": "es2021",
-      "strict": true  
-    }
+  "include": ["examples/src/**/*"],
+  "compilerOptions": {
+    "target": "es2021",
+    "strict": true
+  }
 }
