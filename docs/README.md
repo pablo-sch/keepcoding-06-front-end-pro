@@ -6,7 +6,7 @@ Check the full list of repositories and descriptions in 📁 [repos-kc-web-18.md
 ## Select your language
 
 - 🇪🇸 [Spanish](README.es.md)
-- 🇩🇪 [German](README.de.md)s
+- 🇩🇪 [German](README.de.md)
 
 ## Project Objective
 
