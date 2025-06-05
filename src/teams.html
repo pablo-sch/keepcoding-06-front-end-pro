@@ -22,7 +22,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/teams.css">
 
 </head>
 <body>
@@ -61,40 +61,52 @@
         <h1 class="page-title">Quidditch Champions XVIII</h1>
     </section>
 
-    <section id="about" class="container py-8">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Sobre los juegos</h2>
-        <p class="font-common mb-2 text-lg">
-            La Copa Mundial de Quidditch se ha celebrado cada cuatro años desde 1473. La competencia se lleva a cabo entre los equipos de Quidditch que representan a los países de todo el mundo.
-        </p> 
-        <p class="font-common mb-2 text-lg">
-            El número de países participantes varía de torneo en torneo. Cualquier país puede inscribir un equipo dentro de los doce meses posteriores a la final anterior.
-        </p> 
-    </section>
 
-    <section id="about" class="container py-8">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Próxima edición</h2>
-        <div>
-            <ul class="flex content-center pt-8">
-                <li class="counter-item"><span class="counter-item-number" id="days">1</span>dias</li>
-                <li class="counter-item"><span class="counter-item-number" id="hours">1</span>horas</li>
-                <li class="counter-item"><span class="counter-item-number" id="minutes">1</span>minutos</li>
-                <li class="counter-item"><span class="counter-item-number" id="seconds">1</span>segundos</li>
-            </ul>
+    
+    <section id="teams" class="container py-8">
+        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Equipos participantes</h2>
+
+        <div class="flex justify-between items-center flex-wrap">
+
+            <div class="house-card" id="gryffindor">
+                <img class="margin-auto" src="img/teams/1.webp" alt="Gryffindor">
+                <h3 class="font-title mt-3">Equipo de la casa Gryffindor</h3>
+                <div class="flex gap-1 justify-center mt-4">
+                </div>
+            </div>
+
+            <div class="house-card" id="hufflepuff">
+                <img class="margin-auto" src="img/teams/2.webp" alt="Hufflepuff">
+                <h3 class="font-title mt-3">Equipo de la casa Hufflepuff</h3>
+                <div class="flex gap-1 justify-center mt-4">
+                </div>
+            </div>
+
+            <div class="house-card" id="ravenclaw">
+                <img class="margin-auto" src="img/teams/3.webp" alt="Ravenclaw">
+                <h3 class="font-title mt-3">Equipo de la casa Ravenclaw</h3>
+                <div class="flex gap-1 justify-center mt-4">
+                </div>
+            </div>
+
+            <div class="house-card" id="slytherin">
+                <img class="margin-auto" src="img/teams/4.webp" alt="Slytherin">
+                <h3 class="font-title mt-3">Equipo de la casa Slytherin</h3>
+                <div class="flex gap-1 justify-center mt-4">
+                </div>
+            </div>
+
+
         </div>
+
     </section>
 
-    <section id="classification" class="container py-8 mt-4">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Clasificación</h2>
-        <p class="font-common text-lg mb-2">
-            Se forman dieciséis grupos en los cuales se dividen los equipos. Cada equipo juega contra todos los otros equipos en su grupo durante un período de dos años. Durante la fase de grupos, existe un tope de cuatro horas de juego para cada jugador para evitar el agotamiento.
-        </p>
-        <p class="font-common text-lg mb-2">
-            Con motivo de que el juego termina después de cuatro horas de juego y la Snitch no es atrapada, el resultado se decide según los goles. Una victoria gana dos puntos. Además de estos dos puntos una victoria por 150 puntos gana cinco puntos, en 100 puntos un extra de tres puntos y en 50 puntos un punto extra.
-        </p>
-        <p class="font-common text-lg mb-2">
-            Si dos equipos están empatados en puntos, se separan por cualquier equipo que capture la Snitch más a menudo, o más rápidamente durante sus partidos. Los dieciséis equipos que han terminado en la cima de los dieciséis grupos se clasifican para la Copa Mundial.
-        </p>
-    </section>
+    <!--TODO 
+        1. Crear las cards de cada una de las casas
+        2. Añadir imagenes (en version mobile cada card debe ser del 100%)
+        3. Obtener dinamicamente las fotos de los personajes
+    -->
+
 
     <!-- Footer -->
     <!-- TODO: Estilos -->
@@ -116,6 +128,7 @@
     </footer>
     
 
-    <script src="lib/home.ts" type="module"></script>
+    <script type="module" src="lib/houses/index.ts"></script>
+
 </body>
 </html>

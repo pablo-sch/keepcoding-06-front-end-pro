@@ -1,0 +1,10 @@
+@import './_config.css';
+@import './_header.css';
+
+.house-card {
+    @apply flex flex-col w-full md:w-[40%] text-center p-[1rem] m-[2rem] rounded-md shadow-[1px_1px_5px_rgba(0,0,0,0.25)];
+}
+
+.house-character {
+    @apply w-[3rem] h-[3rem] rounded-full overflow-hidden;
+}

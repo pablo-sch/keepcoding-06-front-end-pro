@@ -22,7 +22,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/contact.css">
 
 </head>
 <body>
@@ -61,40 +61,31 @@
         <h1 class="page-title">Quidditch Champions XVIII</h1>
     </section>
 
-    <section id="about" class="container py-8">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Sobre los juegos</h2>
-        <p class="font-common mb-2 text-lg">
-            La Copa Mundial de Quidditch se ha celebrado cada cuatro años desde 1473. La competencia se lleva a cabo entre los equipos de Quidditch que representan a los países de todo el mundo.
-        </p> 
-        <p class="font-common mb-2 text-lg">
-            El número de países participantes varía de torneo en torneo. Cualquier país puede inscribir un equipo dentro de los doce meses posteriores a la final anterior.
-        </p> 
-    </section>
+    <!-- Contact -->
+    <section id="contact" class="py-8 container">
+        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">
+            Contacta con nosotros
+        </h2>
 
-    <section id="about" class="container py-8">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Próxima edición</h2>
-        <div>
-            <ul class="flex content-center pt-8">
-                <li class="counter-item"><span class="counter-item-number" id="days">1</span>dias</li>
-                <li class="counter-item"><span class="counter-item-number" id="hours">1</span>horas</li>
-                <li class="counter-item"><span class="counter-item-number" id="minutes">1</span>minutos</li>
-                <li class="counter-item"><span class="counter-item-number" id="seconds">1</span>segundos</li>
-            </ul>
+        <p>
+            Si tienes alguna duda o sugerencia, no dudes en ponerte en contacto con nosotros.
+        </p>
+        <div class="form-container">
+            <form id="contactForm" method="post" novalidate>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required>
+                <span class="name-error-message error"></span>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <span class="email-error-message error"></span>
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                <span class="message-error-message error"></span>
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
         </div>
     </section>
 
-    <section id="classification" class="container py-8 mt-4">
-        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Clasificación</h2>
-        <p class="font-common text-lg mb-2">
-            Se forman dieciséis grupos en los cuales se dividen los equipos. Cada equipo juega contra todos los otros equipos en su grupo durante un período de dos años. Durante la fase de grupos, existe un tope de cuatro horas de juego para cada jugador para evitar el agotamiento.
-        </p>
-        <p class="font-common text-lg mb-2">
-            Con motivo de que el juego termina después de cuatro horas de juego y la Snitch no es atrapada, el resultado se decide según los goles. Una victoria gana dos puntos. Además de estos dos puntos una victoria por 150 puntos gana cinco puntos, en 100 puntos un extra de tres puntos y en 50 puntos un punto extra.
-        </p>
-        <p class="font-common text-lg mb-2">
-            Si dos equipos están empatados en puntos, se separan por cualquier equipo que capture la Snitch más a menudo, o más rápidamente durante sus partidos. Los dieciséis equipos que han terminado en la cima de los dieciséis grupos se clasifican para la Copa Mundial.
-        </p>
-    </section>
 
     <!-- Footer -->
     <!-- TODO: Estilos -->
@@ -116,6 +107,6 @@
     </footer>
     
 
-    <script src="lib/home.ts" type="module"></script>
+    <script src="lib/form/index.ts" type="module"></script>
 </body>
 </html>

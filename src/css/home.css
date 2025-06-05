@@ -1,17 +1,10 @@
 @import './_config.css';
+@import './_header.css';
 
-section#hero {
-    background-image: url('../img/header.jpg?as=webp&quality=75&width=1920');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: brightness(0.7);
+.counter-item {
+    @apply inline-block flex-1 uppercase font-common text-center;
 }
 
-.counter-item{
-    @apply inline-block flex-1 uppercase font-common text-center
-}
-
-.counter-item-number{
-    @apply block text-6xl mb-4 text-gold
+.counter-item-number {
+    @apply block text-6xl mb-4 text-gold;
 }

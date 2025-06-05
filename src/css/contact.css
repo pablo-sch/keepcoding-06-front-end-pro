@@ -1,0 +1,69 @@
+@import './_config.css';
+@import './_header.css';
+
+div.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+
+  div.form-container form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  div.form-container label {
+    font-family: var(--header-font-family);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  div.form-container form input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .2rem;
+  }
+
+  div.form-container form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .2rem;
+  }
+
+  div.form-container form button {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .2rem;
+    background-color: var(--gold-color);
+    color: #4d3c3c;
+    font-weight: 600;
+    font-family: var(--body-font-family);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  div.form-container form button:hover {
+    background-color: #fff;
+    color: var(--gold-color);
+  }
+
+  div.form-container form span.error {
+    color: rgb(163, 0, 0);
+    font-family: var(--body-font-family);
+    font-size: .8rem;
+    align-self: flex-start;
+  }
