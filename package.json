@@ -17,7 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/pablo-sch/keepcoding-06-front-end-pro#readme",
   "devDependencies": {
     "@types/luxon": "^3.6.2",
     "parcel": "^2.14.4",
