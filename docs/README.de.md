@@ -58,83 +58,54 @@ Das Ziel des Projekts ist es, JavaScript- und CSS-Abhängigkeiten mithilfe moder
 
 ## Verwendete Technologien
 
-### Sprachen
-
-- **HTML**: Zur Strukturierung der Inhalte und Erstellung des Seitenaufbaus.
-- **CSS**: Für das Design und visuelle Styling der Seite, um eine attraktive und konsistente Benutzererfahrung zu gewährleisten.
-- **TypeScript:** Programmiersprache mit statischer Typisierung, die zu JavaScript kompiliert und die Codequalität sowie Wartbarkeit verbessert.
-
-### Hauptabhängigkeiten
-
-- **Tailwind CSS / PostCSS:** Utility-first CSS-Framework für schnelles, maßgeschneidertes Design, mit PostCSS zur Verarbeitung des von Tailwind generierten CSS.
-- **Prettier:** Automatischer Code-Formatter, der hilft, einen konsistenten Stil im Projekt beizubehalten.
-- **rimraf:**
+- **Sprachen:** HTML, CSS, JavaScript, TypeScript.
+- **Bemerkenswerte Abhängigkeiten (Node.js):** Tailwindcss, Prettier und rimraf.
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Installations- und Nutzungshinweise
 
-### Softwareanforderungen
+### 1. Softwareanforderungen
 
+- **[Node.js](https://nodejs.org/en/download/)** (getestet mit Version **v22.15.1**)
 - **[Git](https://git-scm.com/downloads)** (getestet mit Version **2.47.1.windows.1**)
 - **[Visual Studio Code](https://code.visualstudio.com/)** (getestet mit Version **1.99.0**)
 
-### Klonen des Repositories
-
-Projekt
+### 2. Repository-Klonen
 
 ```bash
    git clone https://github.com/pablo-sch/keepcoding-07-web-components.git
 ```
 
-Demo
+`>` **Klon-Demo in VSCode ansehen:** 🎥 [Gif Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
 
-![Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
-
-### Gebrauchsanweisungen
-
-Starte Parcel im Entwicklungsmodus, um einen lokalen Server mit automatischem Reload zu starten.
+### 3. Befehle
 
 ```sh
-npm run start
-```
+# Installiere die Projektabhängigkeiten.
+npm install
 
-Starte Parcel im Entwicklungsmodus und öffne die Anwendung automatisch im Browser.
+# Starte den Entwicklungsserver mit Parcel.
+npm start
 
-```sh
-npm run start:open
-```
+# Starte den Server und öffne den Browser automatisch.
+npm start:open
 
-Leere den Ausgabefolder und erstelle eine optimierte Produktionsversion ohne Source Maps.
+# Bereinige den dist-Ordner und erstelle die produktionsbereite Version.
+npm build
 
-```sh
-npm run build
-```
-
-Lösche rekursiv den Ordner `dist`, um Artefakte früherer Builds zu entfernen.
-
-```sh
-npm run clear
+# Lösche den dist-Ordner.
+npm clear
 ```
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Projektvorschau
+## Projektressourcen
 
-### Home
-
-![Home](../etc/preview_images/main_page.png)
-
-### Teams
-
-![Teams](../etc/preview_images/teams_page.png)
-
-### Kontakt
-
-![Kontakt](../etc/preview_images/contact_page.png)
+`>` **Projektvorschau:** 👀 [Vorschau](preview.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Beiträge und Lizenzen
+## Beiträge und Lizenzierung
 
-Dieses Projekt hat keine externen Beiträge oder Lizenzen.
+Projekt unter MIT-Lizenz. Frei zur Nutzung und Verbreitung mit Namensnennung. Externe Beiträge werden nicht akzeptiert, aber Vorschläge sind willkommen.

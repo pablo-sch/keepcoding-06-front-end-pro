@@ -1,12 +1,8 @@
 # Entrega Proyecto Frontend PRO
 
-**Proyectos KeepCoding - Web 18**  
-Consulta la lista completa de repositorios y descripciones en 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
+`>` **Proyectos KeepCoding - Web 18:** 📁 [repos-kc-web-18.md](https://github.com/pablo-sch/pablo-sch/blob/main/docs/repos-kc-web-18.md)
 
-## Selecciona tu Idioma
-
-- 🇺🇸 [Inglés](README.md)
-- 🇩🇪 [Alemán](README.de.md)
+`>` **Selecciona tu Idioma:** [Inglés](README.md) 🔄 [Alemán](README.de.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
@@ -58,83 +54,54 @@ El objetivo del proyecto es integrar y configurar dependencias de JavaScript y C
 
 ## Tecnologías Utilizadas
 
-### Lenguajes
-
-- **HTML**: Para la estructuración del contenido y la creación de la estructura de la página web.
-- **CSS**: Para el diseño y estilo visual de la página, asegurando una experiencia de usuario atractiva y coherente.
-- **TypeScript:** Lenguaje de programación con tipado estático que se compila a JavaScript, mejorando la calidad y mantenibilidad del código.
-
-### Dependencias principales
-
-- **Tailwind CSS / PostCSS:** Framework CSS basado en utilidades para un diseño rápido y personalizado con PostCSS que procesa el CSS generado por Tailwind.
-- **Prettier:** Formateador de código automático que ayuda a mantener un estilo consistente en el proyecto.
-- **rimraf:**
+- **Lenguajes:** HTML, CSS, JavaScript, TypeScript.
+- **Dependencias a destacar (Node.js):** Tailwindcss, Prettier y rimraf.
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Instrucciones de Instalación y Uso
 
-### Requisitos de Software
+### 1. Requisitos de Software
 
+- **[Node.js](https://nodejs.org/en/download/)** (testeado en la versión **v22.15.1**)
 - **[Git](https://git-scm.com/downloads)** (testeado en la versión **2.47.1.windows.1**)
 - **[Visual Studio Code](https://code.visualstudio.com/)** (testeado en la versión **1.99.0**)
 
-### Clonación del Repositorio
-
-Proyecto
+### 2. Clonación del Repositorio
 
 ```bash
    git clone https://github.com/pablo-sch/keepcoding-07-web-components.git
 ```
 
-Demo
+`>` **Ver Demo de Clonanción en VSCode:** 🎥 [Gif Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
 
-![Demo](https://github.com/pablo-sch/pablo-sch/blob/main/etc/clone-tutorial.gif)
-
-### Instrucciones de Uso
-
-Arranca Parcel en modo desarrollo, iniciando un servidor local con recarga automática.
+### 3. Comandos
 
 ```sh
-npm run start
-```
+# Instala las dependencias del proyecto.
+npm install
 
-Arranca Parcel en modo desarrollo y abre automáticamente la aplicación en el navegador.
+# Inicia el servidor de desarrollo con Parcel.
+npm start
 
-```sh
-npm run start:open
-```
+# Inicia el servidor y abre el navegador automáticamente.
+npm start:open
 
-Limpia la carpeta de salida y genera una versión optimizada para producción sin mapas de origen.
+# Limpia la carpeta dist y crea la versión lista para producción
+npm build
 
-```sh
-npm run build
-```
-
-Elimina recursivamente la carpeta dist para borrar los artefactos de compilaciones anteriores.
-
-```sh
-npm run clear
+# Elimina la carpeta dist.
+npm clear
 ```
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
-## Vista Previa del Proyecto
+## Recursos del Proyecto
 
-### Home
-
-![Home](../etc/preview_images/main_page.png)
-
-### Teams
-
-![Teams](../etc/preview_images/teams_page.png)
-
-### Contact
-
-![Contact](../etc/preview_images/contact_page.png)
+`>` **Vista Previa del Proyecto:** 👀 [Vista Previa](preview.md)
 
 <!-- ------------------------------------------------------------------------------------------- -->
 
 ## Contribuciones y Licencias
 
-Este proyecto no cuenta con contribuciones externas ni licencias.
+Proyecto bajo licencia MIT. Uso y distribución libres con atribución. No se aceptan contribuciones externas, pero las sugerencias son bienvenidas.
